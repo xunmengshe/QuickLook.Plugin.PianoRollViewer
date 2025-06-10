@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSvip.Model", "Model\OpenSvip.Model.csproj", "{F0CF4E57-33F4-4A63-A45F-69727058C24A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenSvip.Model", "Model\OpenSvip.Model.csproj", "{F0CF4E57-33F4-4A63-A45F-69727058C24A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenSvip.Console", "Console\OpenSvip.Console.csproj", "{3779DA9F-186C-4529-9FF6-56D0186D571C}"
 EndProject
@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.JsonSvip", "Plugins\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.SynthV", "Plugins\SynthV\Plugin.SynthV.csproj", "{052F5EA1-52F4-46BE-AAC3-7CD031E3CDDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSvip.Library", "Library\OpenSvip.Library.csproj", "{C0982090-A08E-45B8-953A-6D1750A69CDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenSvip.Library", "Library\OpenSvip.Library.csproj", "{C0982090-A08E-45B8-953A-6D1750A69CDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Gjgj", "Plugins\Gjgj\Plugin.Gjgj.csproj", "{643E7EED-85E2-4FD6-99AF-9EAA718CF5FD}"
 EndProject
@@ -22,7 +22,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Vogen", "Plugins\Vog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Y77", "Plugins\Y77\Plugin.Y77.csproj", "{3B5FB653-3637-47CE-B3FD-E184419A058E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Midi", "Plugins\Midi\Plugin.Midi.csproj", "{FE326AD0-5B40-42B6-9958-9D6C5F830935}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Midi", "Plugins\Midi\Plugin.Midi.csproj", "{FE326AD0-5B40-42B6-9958-9D6C5F830935}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecodeMidi.Console", "DecodeMidi.Console\DecodeMidi.Console.csproj", "{B9A66731-A69A-4BF8-A602-AC049C71BD15}"
 EndProject
@@ -30,7 +30,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Ace", "Plugins\Ace\P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSvip.Tests", "Tests\OpenSvip.Tests.csproj", "{ECCAB774-03E8-4D22-B11B-A3C554658B25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Ustx", "Plugins\Ustx\Plugin.Ustx.csproj", "{AD7E71A4-895A-49A2-9C13-ECA63D1852D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Ustx", "Plugins\Ustx\Plugin.Ustx.csproj", "{AD7E71A4-895A-49A2-9C13-ECA63D1852D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Lyrics", "Plugins\Lyrics\Plugin.Lyrics.csproj", "{CED66EF4-8393-45BE-BF75-35476F840B2C}"
 EndProject
