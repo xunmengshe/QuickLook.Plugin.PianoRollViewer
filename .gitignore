@@ -152,3 +152,5 @@ GPUCache/
 /csharp/OpenSvip.sln.DotSettings.user
 *.csproj.user
 /csharp/OpenSvip.sln.DotSettings
+
+*.qlplugin

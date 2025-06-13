@@ -7,7 +7,7 @@ using System;
 
 namespace FlutyDeer.MidiPlugin.Stream
 {
-    internal class MidiConverter : IProjectConverter
+    public class MidiConverter : IProjectConverter
     {
 
         public Project Load(string path, ConverterOptions options)
