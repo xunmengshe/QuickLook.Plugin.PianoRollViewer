@@ -1,3 +1,9 @@
+# QuickLook.Plugin.PianoRollViewer
+A [QuickLook](https://github.com/QL-Win/QuickLook) plugin for various music creation formats.
+
+---
+以下是原仓库的Readme.md
+
 ## 项目 Releases 迁移公告
 
 由于需求的变更，本项目在创立之初的架构可能在未来无法满足需要，因此我们未来会重写底层框架，开发更加通用强大的歌声合成工程处理接口，探索全新的调音工作流。目前本项目的日常更新以及未来框架的搭建均会在组织账号 [@openvpi](https://github.com/openvpi) 下进行，届时也将欢迎更多开发者的加入，敬请关注。
