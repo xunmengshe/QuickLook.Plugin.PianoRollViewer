@@ -35,9 +35,15 @@ namespace QuickLook.Plugin.PianoRollViewer
             {
                 {"importPitch", "None" },
             };
+            var midiOptions = new Dictionary<string, string>()
+            {
+                {"defaultLyric", "" },
+            };
             Options = new Dictionary<string, Dictionary<string, string>>()
             {
                 {".ustx", ustxOptions },
+                {".mid", midiOptions },
+                {".midi", midiOptions },
             };
         }
 
@@ -118,6 +124,7 @@ namespace QuickLook.Plugin.PianoRollViewer
             imagePanel.BackgroundVisibility = Visibility.Hidden;
             imagePanel.Source = SvgRender(svg);
             //imagePanel.DoZoomToFit();
+            imagePanel.ZoomToFit = false;
             imagePanel.ResetZoom();
             context.IsBusy = false;
             context.ViewerContent = imagePanel;
