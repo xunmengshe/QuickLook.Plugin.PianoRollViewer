@@ -1,5 +1,18 @@
 # QuickLook.Plugin.PianoRollViewer
-A [QuickLook](https://github.com/QL-Win/QuickLook) plugin for various music creation formats.
+A [QuickLook](https://github.com/QL-Win/QuickLook) plugin for various music creation formats that shows your file as piano roll.
+![](images/image.png)
+
+## Supported formats
+The following file formats are currently supported:
+- `.mid` or `.midi`: [MIDI](https://midi.org) file.
+- `.ustx`: [OpenUtau](https://github.com/stakira/openutau) project.
+
+## Download and Installation
+
+1. Go to [Release page](https://github.com/xunmengshe/QuickLook.Plugin.PianoRollViewer) and download the latest version.
+2. Make sure that you have QuickLook running in the background. Go to your Download folder, and press <key>Spacebar</key> on the downloaded `.qlplugin` file.
+3. Click the “Install” button in the popup window.
+4. Restart QuickLook.
 
 ---
 以下是原仓库的Readme.md
