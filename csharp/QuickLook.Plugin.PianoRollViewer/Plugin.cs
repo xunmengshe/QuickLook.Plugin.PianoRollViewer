@@ -21,6 +21,8 @@ namespace QuickLook.Plugin.PianoRollViewer
 
         private Dictionary<string, IProjectConverter> Converters;
 
+        private Dictionary<string, Dictionary<string, string>> Options;
+
         public Plugin()
         {
             Converters = new Dictionary<string, IProjectConverter>()
@@ -28,6 +30,14 @@ namespace QuickLook.Plugin.PianoRollViewer
                 {".mid", new MidiConverter() },
                 {".midi", new MidiConverter() },
                 {".ustx", new UstxConverter() },
+            };
+            var ustxOptions = new Dictionary<string, string>()
+            {
+                {"importPitch", "None" },
+            };
+            Options = new Dictionary<string, Dictionary<string, string>>()
+            {
+                {".ustx", ustxOptions },
             };
         }
 
@@ -89,10 +99,12 @@ namespace QuickLook.Plugin.PianoRollViewer
         {
             string ext = Path.GetExtension(path);
             var converter = Converters[ext];
+            if(!Options.TryGetValue(ext, out var inputOptions))
+            {
+                inputOptions = new Dictionary<string, string>();
+            }
             var project = converter.Load(path,
-                new ConverterOptions(
-                    new Dictionary<string, string>()
-                )
+                new ConverterOptions(inputOptions)
             );
             PreProcess(project);
             string svg = SvgConverter.Dumps(project,
