@@ -7,6 +7,7 @@ using OpenSvip.Model;
 
 using OpenUtau.Core.Ustx;
 using OpenUtau.Core;
+using OxygenDioxide.UstxPlugin.Options;
 
 namespace OxygenDioxide.UstxPlugin.Stream
 {
@@ -18,7 +19,10 @@ namespace OxygenDioxide.UstxPlugin.Stream
             string text = File.ReadAllText(path, Encoding.UTF8);
             UProject ustxProject = Yaml.DefaultDeserializer.Deserialize<UProject>(text);
             //然后从UProject对象中提取出信息，生成Project对象
-            return UstxDecoder.DecodeProject(ustxProject);
+            return new UstxDecoder
+            {
+                ImportPitch = options.GetValueAsEnum("importPitch", ImportPitchOption.Full)
+            }.DecodeProject(ustxProject);
         }
         public void Save(string path, Project project, ConverterOptions options)
         { 
