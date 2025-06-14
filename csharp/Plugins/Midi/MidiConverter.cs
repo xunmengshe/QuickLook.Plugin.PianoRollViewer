@@ -25,7 +25,8 @@ namespace FlutyDeer.MidiPlugin.Stream
             {
                 IsImportTimeSignatures = options.GetValueAsBoolean("importTimeSignatures", true),
                 IsImportLyrics = options.GetValueAsBoolean("importLyrics", true),
-                MultiChannelOption = options.GetValueAsEnum("multiChannel", MultiChannelOption.First),
+                DefaultLyric = options.GetValueAsString("defaultLyric", "a"),
+                MultiChannelOption = options.GetValueAsEnum("multiChannel", MultiChannelOption.Split),
                 Channels = options.GetValueAsString("channels", "1")
             }.DecodeMidiFile(midiFile);
         }
