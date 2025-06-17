@@ -12,15 +12,12 @@
     <Copyright>Copyright ©  2023 笛鹿FlutyDeer</Copyright>
     <AssemblyVersion>0.1.0.0</AssemblyVersion>
     <FileVersion>0.1.0.0</FileVersion>
+    <UserSecretsId>d83a3a5a-baed-4555-a4dc-0c431d4f10c5</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Properties.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
-    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="ToolGood.Words.Pinyin" Version="3.0.3.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Framework\OpenSvip.Framework.csproj" />
