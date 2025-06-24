@@ -50,12 +50,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Svg.Skia" Version="3.0.3">
+        <PackageReference Include="Svg.Skia">
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
-        <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.6.0">
+        <PackageReference Include="Magick.NET-Q8-AnyCPU">
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
+        <PackageReference Include="System.Memory">
+		</PackageReference>
     </ItemGroup>
 
 	<ItemGroup>

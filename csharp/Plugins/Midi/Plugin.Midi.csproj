@@ -19,7 +19,7 @@
     <Content Include="Properties.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <PackageReference Include="Melanchall.DryWetMidi" Version="6.1.3" />
+    <PackageReference Include="Melanchall.DryWetMidi"/>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Framework\OpenSvip.Framework.csproj" />
