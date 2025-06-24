@@ -14,8 +14,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Framework\OpenSvip.Framework.csproj" />
     <ProjectReference Include="..\..\Model\OpenSvip.Model.csproj" />
-    <PackageReference Include="YamlDotNet" Version="16.3.0" />
-    <PackageReference Include="System.Numerics.Vectors" />
+    <PackageReference Include="YamlDotNet"/>
+    <PackageReference Include="System.Numerics.Vectors"/>
 
   </ItemGroup>
   <ItemGroup>
