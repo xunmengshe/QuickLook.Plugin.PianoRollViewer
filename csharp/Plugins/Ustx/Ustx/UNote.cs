@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Numerics;
 using System.Text.RegularExpressions;
 using YamlDotNet.Serialization;
 
-namespace OpenUtau.Core.Ustx {
+namespace OxygenDioxide.UstxPlugin.Ustx {
     public class UNote : IComparable {
         static readonly Regex phoneticHintPattern = new Regex(@"\[(.*)\]");
 

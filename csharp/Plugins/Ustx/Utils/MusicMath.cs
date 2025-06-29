@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OpenUtau.Core {
+namespace OxygenDioxide.UstxPlugin.Utils
+{
     public static class MusicMath {
         private static readonly double a = Math.Pow(2, 1.0 / 12);
 

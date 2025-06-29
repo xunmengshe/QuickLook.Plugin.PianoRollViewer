@@ -1,11 +1,13 @@
-﻿using OpenUtau.Core.Ustx;
-using YamlDotNet.Core;
+﻿using YamlDotNet.Core;
 using YamlDotNet.Core.Events;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.EventEmitters;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace OpenUtau.Core {
+using OxygenDioxide.UstxPlugin.Ustx;
+
+namespace OxygenDioxide.UstxPlugin.Utils
+{
     public static class Yaml {
         public static ISerializer DefaultSerializer = new SerializerBuilder()
             .WithNamingConvention(UnderscoredNamingConvention.Instance)

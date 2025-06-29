@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using YamlDotNet.Serialization;
+using OxygenDioxide.UstxPlugin.Utils;
 
-namespace OpenUtau.Core.Ustx {
+namespace OxygenDioxide.UstxPlugin.Ustx {
     public class UCurve {
         public const int interval = 5;
 
