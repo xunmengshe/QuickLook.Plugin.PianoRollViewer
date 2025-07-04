@@ -2,7 +2,7 @@
 using System.Linq;
 using YamlDotNet.Serialization;
 
-namespace OpenUtau.Core.Ustx {
+namespace OxygenDioxide.UstxPlugin.Ustx {
     public class UTrack {
         public string singer;
         public string phonemizer;

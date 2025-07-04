@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using YamlDotNet.Serialization;
 
-namespace OpenUtau.Core.Ustx {
+namespace OxygenDioxide.UstxPlugin.Ustx {
     public enum UExpressionType : int {
         Numerical = 0,
         Options = 1,

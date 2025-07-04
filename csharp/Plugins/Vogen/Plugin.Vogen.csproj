@@ -18,8 +18,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Framework\OpenSvip.Framework.csproj" />
     <ProjectReference Include="..\..\Model\OpenSvip.Model.csproj" />
-    <PackageReference Include="SharpZipLib" Version="1.4.2" />
-    <PackageReference Include="NPinyin" Version="0.2.6321.26573" />
+    <PackageReference Include="SharpZipLib"/>
+    <PackageReference Include="NPinyin"/>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties.xml">

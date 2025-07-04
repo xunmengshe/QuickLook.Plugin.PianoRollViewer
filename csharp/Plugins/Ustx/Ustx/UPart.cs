@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using YamlDotNet.Serialization;
 
-namespace OpenUtau.Core.Ustx {
+namespace OxygenDioxide.UstxPlugin.Ustx {
     public abstract class UPart {
         public string name = "New Part";
         public string comment = string.Empty;

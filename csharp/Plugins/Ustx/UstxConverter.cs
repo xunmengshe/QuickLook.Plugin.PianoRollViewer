@@ -1,12 +1,11 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Text;
 
 using OpenSvip.Framework;
 using OpenSvip.Model;
 
-using OpenUtau.Core.Ustx;
-using OpenUtau.Core;
+using OxygenDioxide.UstxPlugin.Ustx;
+using OxygenDioxide.UstxPlugin.Utils;
 using OxygenDioxide.UstxPlugin.Options;
 
 namespace OxygenDioxide.UstxPlugin.Stream

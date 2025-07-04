@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using OpenSvip.Model;
-using OpenUtau.Core.Ustx;
+using OxygenDioxide.UstxPlugin.Ustx;
+using OxygenDioxide.UstxPlugin.Utils;
 using OxygenDioxide.UstxPlugin.Options;
 
 namespace OxygenDioxide.UstxPlugin.Stream
@@ -172,7 +173,7 @@ namespace OxygenDioxide.UstxPlugin.Stream
                 KeyNumber = ustxNote.tone,
                 Lyric = lyric
             };
-            if(!(lyric.Length == 1 && LyricUtil.isHanzi(lyric[0])))//如果不是单个汉字，则Pronunciation里面也写一份
+            if(!(lyric.Length == 1 && LyricsUtil.isHanzi(lyric[0])))//如果不是单个汉字，则Pronunciation里面也写一份
             {
                 osNote.Pronunciation = lyric;
             }
