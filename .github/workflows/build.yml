@@ -1,0 +1,77 @@
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version"
+        default: "0.0.0"
+        required: true
+        type: string
+      release:
+        type: boolean
+        default: false
+        description: "Release"
+      beta:
+        type: boolean
+        default: true
+        description: "Beta"
+      draft:
+        type: boolean
+        default: true
+        description: "Draft"
+
+env:
+  release-name: ${{ inputs.version }}${{ inputs.beta && ' Beta' || '' }}
+
+jobs:
+  build:
+    runs-on: ${{ matrix.arch.runs-on }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        arch:
+          - { name: win-x64, rid: win-x64, arch: x64, os: win, runs-on: windows-latest }
+
+    steps:
+      # Setup
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          ref: master
+          
+      - name: Add MSBuild to PATH
+        uses: microsoft/setup-msbuild@v1.0.2
+
+      - name: install python dependencies
+        run: py -m pip install xmltodict
+      
+      - name: Patch version
+        run: py .github\workflows\patchVersion.py ${{ inputs.version }}
+
+      - name: Build
+        run: msbuild /m /p:BuildInParallel=true /p:Configuration=Release csharp/QuickLook.Plugin.PianoRollViewer/QuickLook.Plugin.PianoRollViewer.csproj
+
+      # Create Zip
+      - name: Zip
+        working-directory: ${{env.GITHUB_WORKSPACE}}/csharp/scripts
+        run: pack-zip.ps1
+
+      # Upload Artifacts
+      - uses: actions/upload-artifact@v4
+        with:
+          name: csharp/QuickLook.Plugin.PianoRollViewer.qlplugin
+          path: QuickLook.Plugin.PianoRollViewer.qlplugin
+
+      # Release
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.version }}
+          name: ${{ env.release-name }}
+          prerelease: ${{ inputs.beta }}
+          draft: ${{ inputs.draft }}
+          files: |
+            csharp/QuickLook.Plugin.PianoRollViewer.qlplugin
+          body: ""
+        if: ${{ inputs.release }}
