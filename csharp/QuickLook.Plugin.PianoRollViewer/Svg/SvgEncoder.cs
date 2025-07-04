@@ -18,10 +18,7 @@ namespace QuickLook.Plugin.PianoRollViewer.Svg {
                 PixelPerBeat = PixelPerBeat,
                 NoteHeight = NoteHeight,
             };
-            var track = (SingingTrack)project.TrackList
-                .Where(trackIt => trackIt is SingingTrack)
-                .ElementAt(TrackIndex);
-            coordinateHelper.calculateRange(track);
+            coordinateHelper.calculateRange(project);
             svgFactory.CoordinateHelper = coordinateHelper;
             svgFactory.ApplyStyle(
                 NoteFillColor,
@@ -29,10 +26,11 @@ namespace QuickLook.Plugin.PianoRollViewer.Svg {
                 NoteStrokeWidth,
                 InnerTextColor,
                 SideTextColor,
-                NoteRound
+                NoteRound,
+                project.TrackList.Count
             );
-            foreach(var note in track.NoteList) {
-                svgFactory.DrawNote(note);
+            foreach (var track in project.TrackList.OfType<SingingTrack>()) { 
+                svgFactory.DrawTrack(track);
             }
             return svgFactory;
         }

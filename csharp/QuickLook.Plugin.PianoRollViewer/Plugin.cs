@@ -41,9 +41,9 @@ namespace QuickLook.Plugin.PianoRollViewer
             };
             Options = new Dictionary<string, Dictionary<string, string>>()
             {
-                {".ustx", ustxOptions },
                 {".mid", midiOptions },
                 {".midi", midiOptions },
+                {".ustx", ustxOptions },
             };
         }
 
