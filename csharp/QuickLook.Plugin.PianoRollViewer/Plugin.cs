@@ -1,6 +1,7 @@
 ﻿using FlutyDeer.MidiPlugin.Stream;
 using OpenSvip.Framework;
 using OpenSvip.Model;
+using OxygenDioxide.UstPlugin.Stream;
 using OxygenDioxide.UstxPlugin.Stream;
 using QuickLook.Common.Helpers;
 using QuickLook.Common.Plugin;
@@ -29,6 +30,7 @@ namespace QuickLook.Plugin.PianoRollViewer
             {
                 {".mid", new MidiConverter() },
                 {".midi", new MidiConverter() },
+                {".ust", new UstConverter() },
                 {".ustx", new UstxConverter() },
             };
             var ustxOptions = new Dictionary<string, string>()
@@ -39,10 +41,12 @@ namespace QuickLook.Plugin.PianoRollViewer
             {
                 {"defaultLyric", "" },
             };
+            var emptyOptions = new Dictionary<string, string>();
             Options = new Dictionary<string, Dictionary<string, string>>()
             {
                 {".mid", midiOptions },
                 {".midi", midiOptions },
+                {".ust", emptyOptions },
                 {".ustx", ustxOptions },
             };
         }

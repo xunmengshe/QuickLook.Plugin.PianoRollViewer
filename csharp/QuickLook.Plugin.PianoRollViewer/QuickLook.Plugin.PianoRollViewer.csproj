@@ -82,7 +82,8 @@
     </Target>
 
     <ItemGroup>
-        <ProjectReference Include="..\QuickLook.Common\QuickLook.Common.csproj"/>
+        <ProjectReference Include="..\..\..\opensvip\csharp\Plugins\Ust\Plugin.Ust.csproj" />
+        <ProjectReference Include="..\QuickLook.Common\QuickLook.Common.csproj" />
         <ProjectReference Include="..\Model\OpenSvip.Model.csproj" />
         <ProjectReference Include="..\Plugins\Midi\Plugin.Midi.csproj" />
         <ProjectReference Include="..\Plugins\Ustx\Plugin.Ustx.csproj" />
