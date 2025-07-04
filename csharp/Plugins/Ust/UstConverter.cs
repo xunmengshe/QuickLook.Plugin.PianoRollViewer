@@ -12,10 +12,11 @@ namespace OxygenDioxide.UstPlugin.Stream
         }
         public void Save(string path, Project project, ConverterOptions options)
         {
-            var ustEncoder = new UstEncoder {
+            var ustEncoder = new UstEncoder
+            {
                 TrackIndex = options.GetValueAsInteger("TrackIndex", 0),
             };
-            //TODO
+            ustEncoder.SaveFile(project, path);
         }
     }
 }
