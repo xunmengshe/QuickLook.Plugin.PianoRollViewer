@@ -49,6 +49,9 @@ jobs:
       - name: Patch version
         run: py .github\workflows\patchVersion.py ${{ inputs.version }}
 
+      - name: Restore
+        run: nuget restore csharp/QuickLook.Plugin.PianoRollViewer/QuickLook.Plugin.PianoRollViewer.csproj
+
       - name: Build
         run: msbuild /m /p:BuildInParallel=true /p:Configuration=Release csharp/QuickLook.Plugin.PianoRollViewer/QuickLook.Plugin.PianoRollViewer.csproj
 
