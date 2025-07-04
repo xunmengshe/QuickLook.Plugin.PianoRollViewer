@@ -55,7 +55,7 @@ jobs:
 
       - name: Build
         working-directory: ${{env.GITHUB_WORKSPACE}}
-        run: msbuild /m /p:BuildInParallel=true /p:Configuration=Release csharp/QuickLook.Plugin.PianoRollViewer/QuickLook.Plugin.PianoRollViewer.csproj
+        run: msbuild /m /p:BuildInParallel=true /p:Configuration=Release ./csharp/QuickLook.Plugin.PianoRollViewer/QuickLook.Plugin.PianoRollViewer.csproj
 
       # Create Zip
       - name: Zip
