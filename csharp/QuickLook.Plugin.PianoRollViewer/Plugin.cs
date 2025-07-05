@@ -8,6 +8,7 @@ using QuickLook.Common.Plugin;
 using QuickLook.Plugin.PianoRollViewer.Svg;
 using SkiaSharp;
 using Svg.Skia;
+using SynthV.Stream;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -30,6 +31,7 @@ namespace QuickLook.Plugin.PianoRollViewer
             {
                 {".mid", new MidiConverter() },
                 {".midi", new MidiConverter() },
+                {".svp", new SynthVConverter() },
                 {".ust", new UstConverter() },
                 {".ustx", new UstxConverter() },
             };
@@ -46,7 +48,6 @@ namespace QuickLook.Plugin.PianoRollViewer
             {
                 {".mid", midiOptions },
                 {".midi", midiOptions },
-                {".ust", emptyOptions },
                 {".ustx", ustxOptions },
             };
         }

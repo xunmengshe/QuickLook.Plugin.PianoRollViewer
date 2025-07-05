@@ -82,6 +82,7 @@
     </Target>
 
     <ItemGroup>
+        <ProjectReference Include="..\..\..\opensvip\csharp\Plugins\SynthV\Plugin.SynthV.csproj" />
         <ProjectReference Include="..\..\..\opensvip\csharp\Plugins\Ust\Plugin.Ust.csproj" />
         <ProjectReference Include="..\QuickLook.Common\QuickLook.Common.csproj" />
         <ProjectReference Include="..\Model\OpenSvip.Model.csproj" />

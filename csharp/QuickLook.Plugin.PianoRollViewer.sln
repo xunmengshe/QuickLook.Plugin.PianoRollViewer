@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickLook.Common", "QuickLo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Ust", "..\..\opensvip\csharp\Plugins\Ust\Plugin.Ust.csproj", "{083129EE-5C2E-F90B-6A6D-A03DDD47E06A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.SynthV", "..\..\opensvip\csharp\Plugins\SynthV\Plugin.SynthV.csproj", "{052F5EA1-52F4-46BE-AAC3-7CD031E3CDDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{083129EE-5C2E-F90B-6A6D-A03DDD47E06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{083129EE-5C2E-F90B-6A6D-A03DDD47E06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{083129EE-5C2E-F90B-6A6D-A03DDD47E06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052F5EA1-52F4-46BE-AAC3-7CD031E3CDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052F5EA1-52F4-46BE-AAC3-7CD031E3CDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052F5EA1-52F4-46BE-AAC3-7CD031E3CDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052F5EA1-52F4-46BE-AAC3-7CD031E3CDDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
