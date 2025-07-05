@@ -1,7 +1,7 @@
 # QuickLook.Plugin.PianoRollViewer
 A [QuickLook](https://github.com/QL-Win/QuickLook) plugin for various music creation formats that shows your file as piano roll.
 
-Note: Currently this plugin only works on [QuickLook nughtly](https://github.com/QL-Win/QuickLook/releases/tag/latest).
+Note: Currently this plugin only works on [QuickLook nightly](https://github.com/QL-Win/QuickLook/releases/tag/latest).
 
 ![](images/image.png)
 
