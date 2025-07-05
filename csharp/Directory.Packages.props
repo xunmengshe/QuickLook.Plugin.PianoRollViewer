@@ -22,5 +22,7 @@
     <PackageVersion Include="WindowsAPICodePack-Shell" Version="1.1.1" />
     <PackageVersion Include="SharpZipLib" Version="1.4.2" />
     <PackageVersion Include="NPinyin" Version="0.2.6321.26573" />
+    <PackageVersion Include="NPinyinPro" Version="0.3.3" />
+    <PackageVersion Include="NAudio" Version="1.10.0" />
   </ItemGroup>
 </Project>
