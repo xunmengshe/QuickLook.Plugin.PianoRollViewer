@@ -8,6 +8,7 @@ Note: Currently this plugin only works on [QuickLook nughtly](https://github.com
 ## Supported formats
 The following file formats are currently supported:
 - `.mid` or `.midi`: [MIDI](https://midi.org) file.
+- `.svp`: [Synthesizer V](https://dreamtonics.com/synthesizerv/) project
 - `.ust`: [UTAU](https://utau2008.xrea.jp/) project
 - `.ustx`: [OpenUtau](https://github.com/stakira/openutau) project.
 
