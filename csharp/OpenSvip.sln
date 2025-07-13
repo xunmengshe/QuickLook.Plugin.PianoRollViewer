@@ -52,6 +52,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrSjimo.SvgPlugin", "Plugin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Ust", "Plugins\Ust\Plugin.Ust.csproj", "{1263E7A1-03AD-10FD-7B9F-6B82A4BAE382}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Dv", "Plugins\Dv\Plugin.Dv.csproj", "{23D62E05-30F5-D92F-2AFF-8B5D70EB6638}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -158,6 +160,10 @@ Global
 		{1263E7A1-03AD-10FD-7B9F-6B82A4BAE382}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1263E7A1-03AD-10FD-7B9F-6B82A4BAE382}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1263E7A1-03AD-10FD-7B9F-6B82A4BAE382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D62E05-30F5-D92F-2AFF-8B5D70EB6638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D62E05-30F5-D92F-2AFF-8B5D70EB6638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D62E05-30F5-D92F-2AFF-8B5D70EB6638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D62E05-30F5-D92F-2AFF-8B5D70EB6638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
