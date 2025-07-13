@@ -46,7 +46,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Svip3", "Plugins\Svi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSvip.GUI", "GUI\OpenSvip.GUI.csproj", "{EBF57F98-939B-4371-A07F-0DE8A6D59B63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Dspx", "Plugins\Plugin.Dspx\Plugin.Dspx.csproj", "{ACC96407-AC8E-49E4-98E4-FEF4C78AB7D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Dspx", "Plugins\Dspx\Plugin.Dspx.csproj", "{ACC96407-AC8E-49E4-98E4-FEF4C78AB7D2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrSjimo.SvgPlugin", "Plugins\Svg\CrSjimo.SvgPlugin.csproj", "{B42E3F46-F4EC-4B5B-911D-7683AF821F17}"
 EndProject
