@@ -26,7 +26,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Midi", "Plugins\Midi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecodeMidi.Console", "DecodeMidi.Console\DecodeMidi.Console.csproj", "{B9A66731-A69A-4BF8-A602-AC049C71BD15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Ace", "Plugins\Ace\Plugin.Ace.csproj", "{DE890A5D-8DC9-4008-9513-BBA8324990BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Ace", "Plugins\Ace\Plugin.Ace.csproj", "{DE890A5D-8DC9-4008-9513-BBA8324990BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSvip.Tests", "Tests\OpenSvip.Tests.csproj", "{ECCAB774-03E8-4D22-B11B-A3C554658B25}"
 EndProject
