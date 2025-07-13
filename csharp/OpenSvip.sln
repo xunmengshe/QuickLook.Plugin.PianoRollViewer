@@ -20,7 +20,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Gjgj", "Plugins\Gjgj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Vogen", "Plugins\Vogen\Plugin.Vogen.csproj", "{2094D048-0F25-4052-A24E-B4783CB0E5E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Y77", "Plugins\Y77\Plugin.Y77.csproj", "{3B5FB653-3637-47CE-B3FD-E184419A058E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Y77", "Plugins\Y77\Plugin.Y77.csproj", "{3B5FB653-3637-47CE-B3FD-E184419A058E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Midi", "Plugins\Midi\Plugin.Midi.csproj", "{FE326AD0-5B40-42B6-9958-9D6C5F830935}"
 EndProject
