@@ -4,7 +4,7 @@ using OpenSvip.Model;
 
 namespace FlutyDeer.Svip3Plugin.Stream
 {
-    internal class Svip3Converter : IProjectConverter
+    public class Svip3Converter : IProjectConverter
     {
         public Project Load(string path, ConverterOptions options)
         {
