@@ -1,6 +1,8 @@
 ﻿using FlutyDeer.MidiPlugin.Stream;
+using FlutyDeer.VogenPlugin.Stream;
 using OpenSvip.Framework;
 using OpenSvip.Model;
+using OxygenDioxide.DvPlugin.Stream;
 using OxygenDioxide.UstPlugin.Stream;
 using OxygenDioxide.UstxPlugin.Stream;
 using QuickLook.Common.Helpers;
@@ -29,11 +31,13 @@ namespace QuickLook.Plugin.PianoRollViewer
         {
             Converters = new Dictionary<string, IProjectConverter>()
             {
+                {".dv", new DvConverter() },
                 {".mid", new MidiConverter() },
                 {".midi", new MidiConverter() },
                 {".svp", new SynthVConverter() },
                 {".ust", new UstConverter() },
                 {".ustx", new UstxConverter() },
+                {".vog", new VogenConverter() },
             };
             var ustxOptions = new Dictionary<string, string>()
             {

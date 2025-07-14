@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Ust", "..\..\opensvi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.SynthV", "..\..\opensvip\csharp\Plugins\SynthV\Plugin.SynthV.csproj", "{052F5EA1-52F4-46BE-AAC3-7CD031E3CDDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Vogen", "..\..\opensvip\csharp\Plugins\Vogen\Plugin.Vogen.csproj", "{323EE88B-1747-E64C-2EA3-E465A06954B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Dv", "..\..\opensvip\csharp\Plugins\Dv\Plugin.Dv.csproj", "{52D645F0-49EB-5151-8976-55289A2B561C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +72,14 @@ Global
 		{052F5EA1-52F4-46BE-AAC3-7CD031E3CDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{052F5EA1-52F4-46BE-AAC3-7CD031E3CDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{052F5EA1-52F4-46BE-AAC3-7CD031E3CDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323EE88B-1747-E64C-2EA3-E465A06954B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323EE88B-1747-E64C-2EA3-E465A06954B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323EE88B-1747-E64C-2EA3-E465A06954B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323EE88B-1747-E64C-2EA3-E465A06954B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D645F0-49EB-5151-8976-55289A2B561C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D645F0-49EB-5151-8976-55289A2B561C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D645F0-49EB-5151-8976-55289A2B561C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D645F0-49EB-5151-8976-55289A2B561C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
