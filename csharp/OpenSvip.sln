@@ -34,7 +34,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Lyrics", "Plugins\Ly
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Srt", "Plugins\Srt\Plugin.Srt.csproj", "{4D661193-C60D-4025-823C-525FBA0E243E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.MusicXml", "Plugins\MusicXml\Plugin.MusicXml.csproj", "{E3A16659-17BC-48AF-B27F-B678354ACDD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.MusicXml", "Plugins\MusicXml\Plugin.MusicXml.csproj", "{E3A16659-17BC-48AF-B27F-B678354ACDD0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json2DiffSinger", "Plugins\Json2Diffsinger\Json2DiffSinger.csproj", "{BDBBCE8A-6E4A-41BC-840C-DEC3BB411FD4}"
 EndProject
