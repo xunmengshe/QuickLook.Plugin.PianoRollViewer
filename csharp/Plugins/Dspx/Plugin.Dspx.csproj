@@ -2,15 +2,15 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <OutputType>Library</OutputType>
-    <AssemblyTitle>Plugin.Vsqx4</AssemblyTitle>
-    <Product>Plugin.Vsqx4</Product>
-    <Copyright>Copyright ©  2022</Copyright>
+    <AssemblyTitle>Plugin.Dspx</AssemblyTitle>
+    <Product>Plugin.Dspx</Product>
+    <Copyright>Copyright ©  2023</Copyright>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Framework\OpenSvip.Framework.csproj" />
-    <ProjectReference Include="..\..\Model\OpenSvip.Model.csproj" />
+    <PackageReference Include="Newtonsoft.Json"/>
+    <PackageReference Include="System.Data.DataSetExtensions"/>
   </ItemGroup>
 </Project>

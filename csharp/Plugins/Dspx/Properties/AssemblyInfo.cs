@@ -10,4 +10,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("d55c0b10-f23e-49a2-bc36-5a118c0ed07e")]
+[assembly: Guid("acc96407-ac8e-49e4-98e4-fef4c78ab7d2")]
