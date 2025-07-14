@@ -37,5 +37,6 @@
     <PackageVersion Include="System.Threading.Tasks.Extensions" Version="4.6.3" />
     <PackageVersion Include="LinqStatistics" Version="2.3.0.0" />
     <PackageVersion Include="ZstdSharp.Port" Version="0.7.2" />
+    <PackageVersion Include="NUnit" Version="3.14.0" />
   </ItemGroup>
 </Project>

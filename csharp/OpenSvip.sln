@@ -26,7 +26,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Midi", "Plugins\Midi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Ace", "Plugins\Ace\Plugin.Ace.csproj", "{DE890A5D-8DC9-4008-9513-BBA8324990BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSvip.Tests", "Tests\OpenSvip.Tests.csproj", "{ECCAB774-03E8-4D22-B11B-A3C554658B25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenSvip.Tests", "Tests\OpenSvip.Tests.csproj", "{ECCAB774-03E8-4D22-B11B-A3C554658B25}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.Ustx", "Plugins\Ustx\Plugin.Ustx.csproj", "{AD7E71A4-895A-49A2-9C13-ECA63D1852D8}"
 EndProject
