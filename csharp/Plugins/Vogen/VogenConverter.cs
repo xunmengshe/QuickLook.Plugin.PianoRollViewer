@@ -8,7 +8,7 @@ using FlutyDeer.VogenPlugin.Options;
 
 namespace FlutyDeer.VogenPlugin.Stream
 {
-    internal class VogenConverter : IProjectConverter
+    public class VogenConverter : IProjectConverter
     {
 
         public Project Load(string path, ConverterOptions options)

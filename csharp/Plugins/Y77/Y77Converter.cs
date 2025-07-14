@@ -7,7 +7,7 @@ using OpenSvip.Model;
 
 namespace FlutyDeer.Y77Plugin
 {
-    internal class Y77Converter : IProjectConverter
+    public class Y77Converter : IProjectConverter
     {
 
         public Project Load(string path, ConverterOptions options)
