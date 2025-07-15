@@ -1,4 +1,6 @@
-﻿using FlutyDeer.MidiPlugin.Stream;
+﻿using BinSvip.Stream;
+using FlutyDeer.GjgjPlugin.Stream;
+using FlutyDeer.MidiPlugin.Stream;
 using FlutyDeer.VogenPlugin.Stream;
 using OpenSvip.Framework;
 using OpenSvip.Model;
@@ -32,8 +34,10 @@ namespace QuickLook.Plugin.PianoRollViewer
             Converters = new Dictionary<string, IProjectConverter>()
             {
                 {".dv", new DvConverter() },
+                {".gj", new GjgjConverter() },
                 {".mid", new MidiConverter() },
                 {".midi", new MidiConverter() },
+                {".svip", new BinarySvipConverter() },
                 {".svp", new SynthVConverter() },
                 {".ust", new UstConverter() },
                 {".ustx", new UstxConverter() },

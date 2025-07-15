@@ -26,6 +26,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Vogen", "..\..\opens
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Dv", "..\..\opensvip\csharp\Plugins\Dv\Plugin.Dv.csproj", "{52D645F0-49EB-5151-8976-55289A2B561C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Gjgj", "..\..\opensvip\csharp\Plugins\Gjgj\Plugin.Gjgj.csproj", "{6010E877-D83C-4954-418A-8F945967ACBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.BinSvip", "..\..\opensvip\csharp\Plugins\BinSvip\Plugin.BinSvip.csproj", "{6F3E23CA-3E75-BC71-61FD-3DF170E14CF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +84,14 @@ Global
 		{52D645F0-49EB-5151-8976-55289A2B561C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52D645F0-49EB-5151-8976-55289A2B561C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52D645F0-49EB-5151-8976-55289A2B561C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6010E877-D83C-4954-418A-8F945967ACBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6010E877-D83C-4954-418A-8F945967ACBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6010E877-D83C-4954-418A-8F945967ACBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6010E877-D83C-4954-418A-8F945967ACBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3E23CA-3E75-BC71-61FD-3DF170E14CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3E23CA-3E75-BC71-61FD-3DF170E14CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3E23CA-3E75-BC71-61FD-3DF170E14CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3E23CA-3E75-BC71-61FD-3DF170E14CF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

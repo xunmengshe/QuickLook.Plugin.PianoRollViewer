@@ -82,7 +82,9 @@
     </Target>
 
     <ItemGroup>
+        <ProjectReference Include="..\..\..\opensvip\csharp\Plugins\BinSvip\Plugin.BinSvip.csproj" />
         <ProjectReference Include="..\..\..\opensvip\csharp\Plugins\Dv\Plugin.Dv.csproj" />
+        <ProjectReference Include="..\..\..\opensvip\csharp\Plugins\Gjgj\Plugin.Gjgj.csproj" />
         <ProjectReference Include="..\..\..\opensvip\csharp\Plugins\SynthV\Plugin.SynthV.csproj" />
         <ProjectReference Include="..\..\..\opensvip\csharp\Plugins\Ust\Plugin.Ust.csproj" />
         <ProjectReference Include="..\..\..\opensvip\csharp\Plugins\Vogen\Plugin.Vogen.csproj" />
