@@ -8,7 +8,7 @@ using System.Text;
 
 namespace FlutyDeer.GjgjPlugin.Stream
 {
-    internal class GjgjConverter : IProjectConverter
+    public class GjgjConverter : IProjectConverter
     {
         /// <summary>
         /// 将歌叽歌叽工程转换为OpenSvip工程。
