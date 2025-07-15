@@ -30,7 +30,7 @@
     <Reference Include="SingingTool.Model">
       <HintPath>..\..\.tmp\SingingTool.Model.dll</HintPath>
     </Reference>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json"/>
   </ItemGroup>
   <ItemGroup>
     <Content Include="SingerDict.json">
